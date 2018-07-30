@@ -55,6 +55,14 @@ const products = [
     `appengine.googleapis.com`
   ),
   new Product(
+    `automl`,
+    `Google Cloud AutoML`,
+    `Cloud AutoML`,
+    `${BASE}/automl/docs`,
+    `[Google Cloud AutoML]({{docs_url}}) includes several options you can use to create your own custom machine learning models that you can integrate into your applications and web sites.`,
+    `automl.googleapis.com`
+  ),
+  new Product(
     `bigquery`,
     `Google BigQuery`,
     `BigQuery`,
@@ -79,12 +87,28 @@ const products = [
     `bigtable.googleapis.com,bigtableadmin.googleapis.com`
   ),
   new Product(
+    `cloudiot`,
+    `Google Cloud IoT Core`,
+    `Cloud IoT Core`,
+    `${BASE}/iot/docs`,
+    `[Google Cloud Internet of Things (IoT) Core]({{docs_url}}) is a fully managed service for securely connecting and managing IoT devices, from a few to millions. Ingest data from connected devices and build rich applications that integrate with the other big data services of Google Cloud Platform.`,
+    `cloudiot.googleapis.com`
+  ),
+  new Product(
     `compute_engine`,
     `Google Compute Engine`,
     `Compute Engine`,
     `${BASE}/compute/docs/`,
     `[Compute Engine]({{docs_url}}) lets you create and run virtual machines on Google infrastructure. Compute Engine offers scale, performance, and value that allows you to easily launch large compute clusters on Google's infrastructure. There are no upfront investments and you can run thousands of virtual CPUs on a system that has been designed to be fast, and to offer strong consistency of performance.`,
     `compute.googleapis.com`
+  ),
+  new Product(
+    `container`,
+    `Google Kubernetes Engine`,
+    `Kubernetes Engine`,
+    `${BASE}/kubernetes-engine/docs/`,
+    `[Kubernetes Engine]({{docs_url}}) is used for building and managing container based applications, powered by the open source Kubernetes technology.`,
+    `container.googleapis.com`
   ),
   new Product(
     `container_builder`,
@@ -203,7 +227,7 @@ const products = [
     `Cloud Identity Access Management`,
     `Cloud IAM`,
     `${BASE}/iam/docs`,
-    `[Cloud Identity and Access Management (Cloud IAM)]({{docs_url}}) enables you to create and manage permissions for Google Cloud Platform resources. Cloud IAM unifies access control for Cloud Platform services into a single system and presents a consistent set of operations`,
+    `[Cloud Identity and Access Management (Cloud IAM)]({{docs_url}}) enables you to create and manage permissions for Google Cloud Platform resources. Cloud IAM unifies access control for Cloud Platform services into a single system and presents a consistent set of operations.`,
     `iam.googleapis.com`
   ),
   new Product(
@@ -253,6 +277,14 @@ const products = [
     `${BASE}/natural-language/docs`,
     `[Cloud Natural Language API]({{docs_url}}) provides natural language understanding technologies to developers, including sentiment analysis, entity analysis, and syntax analysis. This API is part of the larger Cloud Machine Learning API family.`,
     `language.googleapis.com`
+  ),
+  new Product(
+    `oslogin`,
+    `Google Cloud OS Login API`,
+    `Cloud OS Login API`,
+    `${BASE}/compute/docs/oslogin/rest`,
+    `The [Google Cloud OS Login API]({{docs_url}}) manages OS login configuration for Google account users.`,
+    `oslogin.googleapis.com`
   ),
   new Product(
     `prediction`,
@@ -333,6 +365,22 @@ const products = [
     `${BASE}/storage/transfer/`,
     `The [Cloud Storage Transfer Service]({{docs_url}}) allows you to quickly import online data into Google Cloud Storage.`,
     `storagetransfer.googleapis.com`
+  ),
+  new Product(
+    `tasks`,
+    `Google Cloud Tasks`,
+    `Cloud Tasks`,
+    `${BASE}/tasks/docs`,
+    `[Cloud Tasks]({{docs_url}}) manages the execution of large numbers of distributed requests.`,
+    `tasks.googleapis.com`
+  ),
+  new Product(
+    `tts`,
+    `Google Cloud Text-to-Speech API`,
+    `Cloud Text-to-Speech API`,
+    `${BASE}/text-to-speech/docs`,
+    `The [Cloud Text-to-Speech API]({{docs_url}}) converts text or Speech Synthesis Markup Language (SSML) input into audio data of natural human speech.`,
+    `texttospeech.googleapis.com`
   ),
   new Product(
     `trace`,
